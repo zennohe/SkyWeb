@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/app.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">SkyWeb</a>
+                <img src="/SPCK/img/cok.png" alt=" SkyWeb" width="54" height="45">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="populargames.html">Popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="friendslist.html">Friends List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="buyskibidimoney.html">Buy Skibidi Money</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Settings
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="settings.html">Game Settings</a></li>
+                                <li><a class="dropdown-item" href="TOS.html">Terms of Service</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="login.html">Log Out</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <h2>Popular this Month</h2>
+        <div id="PopularM">
+            <div class="card" style="width: 18rem;">
+                <img id="squidgameimg" src="/SPCK/img/smile.webp" class="card-img-top" alt="Sigma boy">
+                <div class="card-body">
+                    <p class="card-text">
+                        š̷̡̨̢̛͙̭̺̪̠̞͓̗̭̞̠̃̂̉͋̋̒̾́̎̈̆̃́̋͆͒̂̇̒̈̈́̊͌̈́̄͑͑̅̋̔̏̅̑̂͛̾͗͗̊̈̎̌͊͐̍̈̎͊̕͝͝͝͝͝͠ͅͅm̷̧̨̧̨̨̡̡̡̧̢̨̨̨̧̡̡̨̨̧̡̧̛̛͈̝̣̠͍̬͇̥̞̪͈̹̳̥̱̮̞̙̩̗͓̤̮̗͉͇͔͔̹̥̗̳̖̙͓͇͎̤̜̭͇̺͔̲̦͕͓̪̹͇͍̪̬̩̝̥̦͖̹͎̗̤͈̟̗̠͉̹͖̘͍͓͎̫͙̻͕̣̝̭̺̳̻̮͖͚̻̖͎͕̹̦̞̦̩͉͚͓̻̰̱̫̟͙͓̹̘̙̣̪̻̜͖͈͍̪̱̹̼͚̬̙̳͎̝̫̻̤̣̲̣̩̠͈̲̠͚̙̥̜͕̤͍̲̤̹͍̮͉͔͈̤̤̝̻͍̮͎̣͚̫̹̮͉̖̪̫̳̬̭̞̻̮̮̘̠̱̠͕̰̺͇̬͉̫͚̗̫̲̺̲̞͈̥̰̠̪͓̝̝̗̰̪̗͈̞̝̮͓̝̭̲̬͈̜̝͖̰̩̰̠̙̫̻͎̩͙̗͇͚̬̰͉̟̘͇͎̭̻̤̳͇͍͇̻̩̀̅̓̿̏͋̊̓̿͊̉̊̌̀̈́̄̄̄͆̿̾́̐͒̓͗̾̎̃͋̋̽̓́͗̿̓̍̀͂̌͛̊̽̀͌͐̽́͛̊̒̓͒̓͗̂͒̈́̈́̀̓̄̇̆̽̃̎͆̊̋͐͗̈́̈͋͐͑͑̄͆̓͒̑̐͐̓̽͒̇̍̔̆̑̃̈͗̾̒͌̏͊̃̉͛̑͆̽͐̈́͊͊̽̿̐̒̋͑̆́̈́̾̎͆̅̀̐̓́̈͑̉̀̓̈́̾̂͊́̈́̀̌͆͆̔̽͂̽͂̀͗̉́̇̆́̀͂̈͂̈́͆̔̀͆͊̂̄͑̅̆͆͂̿͐̈́̃̔̓̍̌̽̒̔̓̆̎̅̋̄̋͑͆̊͆͊̐̎̽̔͑͗̆̈́̊̾̿̚̕͘̚͘͘͘̕̕͘͘̕͜͝͠͝͠͠͠͠͝͠͝͝͠͝͝͠͠ͅͅͅͅi̴̡̧̡̨̢̧̨̨̢̨̛̻̞͍͕̬̪͇̯̭̙̜̦̭͕͓̼̩̮̠͔͎̦̤̺̮͉̬̘̣̯̠̝͎̰͉̣̱̠̤̩̬͉͕̖͖͎̮͉̪̲͇̺͚̬͍̭͉̙̞̞̻̬̹̠̬̭̙̠̱̩͈̫̻̳̻͍͔̼̯̣̜̳̙̭̭̻̺̣̯͖̘̜̼̰̳͍̩̬͇͍͎̳̻̘̱̺̜̘̞̲̤͓̼̫͓̊̾̎̉́͐͌̿͆͂͊̃̂̈́̒͐̀̈́̈́͒̽̽̏̒̍͌̽̀̈́̀͑̾͛̒̊͑̔̉̓̊̾́̿͐̂͒̉͛̅͐̔̐͐̐͒̔͆̓̔͘͘̚͘̚̕̚͜͜͝͝͠͠ͅͅļ̴̢̧̨̡̧̢̡̨̢̡̣̻̥͓̭̮̼̹̠͓̺̗͖̦̥̰͙͖̼̣̺̤̩̣͍͕̳̙̣̺̟̖͕̥̬͔̬̼̥̺͔̪̩̟͖̺̹̮̞̰̺̞̖̻̻͓̣͈̙̤̠̙̫̖̣̳͇̍̐̌͐́͛̐̿̓̒̍̀͂̓͆͆̆̇̉͋̇̅̒̓̈́̓͌̄͌͌̃͑̋̔̅̑͂́͑̎̇̈̅͑̄́̾̆͗̒̽͋̋́̋͛͗̃̑͐̋̀̒̊͂͆̒́̒̈̓͆̄̒̃̒̀͊̈́̈́̃͛̿̃̈̉̐͐̓͒̂͑͌͋͑̏͑̊̃̄͑̔̋̾̂̏̅̍̇̾́́̎͊̐̇̑̌̈́͆͐̿̑̉̀͊͛͆̅̓́̍̍̆̋̍̐̑̈́͐̕̕̚͘̕͘͘̚͘͘͘͜͜͝͠͝͝͝͠͝͝͝͝͠͠͝͠͠͝ȩ̶̢̨̢̨̧̡̡̢̡̧̢̢̧̛̛̛̻̠̺̜̝̠͍͔̖͈̖̘̠̫͇̖̮̣̯͖̜̩͔̹̭̲̪̞̲͈̖̣̠̩̞̫͈͎͖͙͙̤̹̣̭̼̣͎̘̺̼̠̗̖͖̭̹̣̜̬͇̘̩͚̤͚̤̰̮̼̱͉͔̮͚͉͖͍͙̙͇̗̝̭̩͍̺̼͍̰̫͔͔̳̮̗̯̪̯̹̙̬̬͈͇̣͈̟͛̂͆̈̎̀̃́̌̌͑͑̆̄̈́̅͆́͗̈́̀̉̀̿̀͆̉̓̅̃͆̈̈̐͒̂̃̒̈́͛̒̈͗͐̾̉͗̂̏̏͐̏̅̾̌͒̃̾̊̊̐̄̒͐͑͆̋̏̏̆̎̇͗̆̄̔̀́̊̈̅̿̑̎̒̓͛̒̅̔̋͋͊̇͊̊̐̆̈́͌͑̇͂̇́̉͗̍͛̈́̐͗́̆͆̄̈́̀́̆̈́͌͋̔̇̃̈́̒͊͒̓̀͋̅͐̓͒͘̚͘̚̚̚̚͘̕̕̕̚͘͝͠͠͝͠͝͝͠͝͝͠
+                        ̷̢̡̢̨̛̛̛̲̮̩̼̜̭̮̜̟̰̩̬͖̹̝͎̘͈̲̠̙̗̬̝̪̺͙̯̗̫͓͉̟͋̏͗̆̉̓̈́̍̃̓̇͑̿̆̔̍̋̿̉̔͋͂͋͑̂̈́͐̃̍͂̇̽̒̈̎̀̈́͛͐̆̑͐͊̅̐̃̌͛͑̒̈̓̃̀̍̐̇̉̀͊̉̎̈́̀̑͛̈́̋̏̓͒͂̆̿̿̎̑̒̄͂͊̏̓̊̀̈́̾̂͒̏̊͗͌́̆̅͆͊̾́̑͐̄͛͆͂̄͋̎͒̊͒̌̀̌̉́̆̃̊͒̉̈́̾̉̊̍̄̃́̈́͛͑͐̋̂̅̽̊̈́̃͑̑̒́̈̓̓̓͆͐̏̔̐͗͛͌̚͘̚͘͘͘̕͘̚͘̚͘̕̕͘͘̕̕͘͘͠͠͠͝͝͠͝͠͝͝͠͝͠͝f̸̡̧̡̢̢̨̡̢̢̧̧̡̡̡̢̢̢̨̧̢̡̧̧̨̛̛̛̮̲͉͓͓̘̰̠͇̰̗̫̭̞̙̝͇͕͕̲̺̣̱͈̦͕͍̬̮͖̹̲̖͍̗̪̫̱̦̤̟̭̙̹̰̤͈̝͖̤͚̬̱̳̱̝̦͉̳͍̮̼̠̜̳̤͎̝̫̟̹͚̖̳̤̦͔̰̻͈̯̜͚̲̺̪̗̮̙̜͙̘̞̹͉̜͈̣͚͎̳̜̯̬͚̮̮̜̱̺̲̣̩̙̼̗̝̯̠͖̻̹̘̣̖͇̰͍̥̠͍̭̣͔̣̳͎͎̱̳͎̜̠̜̱̼̻͙̻̹̣̦͈̟̪̦͍͓̭̳͎̩̖͖̠̩̩͇̗̘̼̱̪̪̭̟̹͎̺̪̺͕̰̻̬͎̮̠̫̲̟͈̤̰̳̩͉̙̳̺̓̓̽̈́̓̉̀̓̈́͒́̾̆̈́͑̓̈́̋̿̓̃͋̅͌̂̀͆͗̽̄̓̉͌̆̈̓̊̊̈́̎̾̐̑̈̀̓̽͆̂͋́̊̇̇́̽̈́̈́̀̋̓̎̿̇̃̽͐͐̀͛͛̒͆̽̇́͗̏̓̒͒͌̾̊̃̈͒̾̈̈̿͗͛́̈́̃͐̓͛̀͊͑͑̐̀̀͋̑̄̈́̐̃̅͒̍͑́̽̒̈́̈́͗̒̉́̌̀̃̔̌̾͒̔̿̽̃͆͋͆́̈́̿̄́̿͋͒̉̆͒̀͆́͛̉͆̏͐̀̐̌̌̔̾̀͑̏̑̽͐̍͐̐͒͘̕͘̕̚̕͘͘̚̕͘͜͜͜͜͜͜͜͝͝͝͠͝͝͝͝͝͝͝͠͠͠͝͠ͅͅͅͅͅͅͅǫ̶̨̨̢̡̛̛͇͓̘̩̙̼̠͍͎̥̣̦̼̭͇̲͔̪̮͔̝͔̘̠̼̦̭̙̱̦̣̪̪̬̱̰̦̥͔͎̬͉̫̹̜̻̮̥̙͎͙̠̜̲̝̜̮͓̞͈̻͔͍̥̙͈͍̺͙̘̪̊̎̏̇͛̐͑̽͛́̓͆̈͒͑͌͂̑͂̔̈́̓̓͒̈̐͛̔̓̑̒̏̏͐̅̑͌̽̿̀͂͒̎̿̎͊̾̓̅̈́̈͂̀̋́̑͊̊́̅̓̿̇̆͗̅͑̍͑̊̀̋̈́́͂͒̆͑͊̋̎͋̄̌̾̀̔̈̂̑͌̓̓̂͋̽̑̉̊͗͗̒̅̐͑͐͆͂̉̇͑̑̈̀̄̌͐̅͑̍̊̽̍́͊́̂͐͆̐̇̕̚̕͘̚̚̚͜͜͜͜͜͠͝͝͠͠͠͝͝͝͝͝͝͝ͅr̸̡̧̡̨̡̧̢̧̡̨̧̨̢̡̨̧̨̡̨̧̢̡̡̨̧̡̧̧̧̢̢̢̛̛̛̛͈̫̯͍̥̲̖͔̟͕͙̝̩̰̰̪̱͔̹̯̝̠̩̞͓͍͇̺͔̻̞̪̮̼̲̮̮̠̪̟̣̟̩͈̘̖͕̝̝̦̜̥̯̲̩̞̲̮̲̹̻̝̻̹͔͉̻̫̩̜̻̻̤̰͓͖̮̻͔͉̠̭͖̬̫̭͙̺̟̣̩̗͍̮͎͍̜̳͍̦̪̼͇̟̤̪̩̲̜̳͉̟̼͔̻̳̜͍͎̟͈͓̘̙̠̮̖̮͓̪̗͔͇̮͇͚̤̱̻̝̯̗̜̣̫̹̦̳̗͉̺̠͍̹̪̠̥̫̖̪̥̹͚͓̯̥̞̗̗̤̭̼̣̞̟͕̩͚̘̪̟̠̘̘͇̮͙̖͍͙̗̙̲͎̪̜̩̫̳͉̯̯̹̫̻͙̬͇̪̬͈̞̯̳͇̙̱͇̗̫̙͎̥̩͈͔̫̫̹̫͓̙͓͖̟̟̖̮̭͔͎͙̹̤͙͈̱̘̊̏̔̈̿̉̿̓̂̈́̇͆̋̒̈́̉͛̉̇̍̓̆̎͛̿̏̆͐̌̂͛͋͊̐̆̏̄̂̽̌̓͛̓̇̎̈́͑̋͐̌͒̈̃̊̅̈́̔͆̈́́̽̈́̄̀́̂͂́͋͒̿̉̌̑͗̎̅̒͑͋̍̃͆͂̈́͗͒̐̉̒̉̐̐͌̋̈́̈́̍̍͐̑̓̑́̔̒͐̀͆̈́̈̀̏̉̓͑̄͗̋̓̽̑̄̆̽̈́̈́͋̀͛͌͆̓̅̄̇͛̅̏̔͌͒̈́̂͌̒̓̈́̓͌́̏̾̓͒̔͘̕̚͘͘̚̕̕͘͜͜͜͜͜͝͝͠͝͠͠͠͝͝͝͝͝͝ͅͅͅͅͅͅͅͅͅͅͅ
+                        ̸̢̢̧̧̨̧̡̢̡̨̢̢̢̨̧̧̢̡̢̢̢̛̛̜͉̩̖̳̮̲̣̩̣̟͍̙̦̙̬̱̼͍̹̙̪̦̩̗̞̭͎̭̳̟̥̖͍̲̫̘̭̜͚̝̲̘̤̣̺̗̱̙̪̭͙̦̣̻̠̗̯͉͚̲̜͙̘̺̰͙̬̯̪̮̥̰͚̤̫̥͓̯̖͔͉̣̺͍͙̻̤̼͇͎̩̘̲͖͔̹̳̳̹͈̫̗̳͓̫̰͙̙̭͍̜̗̩̫̖̥̙̭̘͈͙̠̖̝͔̬̟̦̥̦̙̖͖̰̣̝̼͇̩̟̜͉͇͔̲͍͍̙̯̯̿̅͒͐̒͒̽̋̓͛́͗͑̓̌̀̋̾̔̈́̓̄̒͊̽̈́̆̍̽̑̐̈́̍̃͂͐́̍͑̓̃̾̽̇͋͋̈́͌́͛͆̔̔̆̌͋̅̔̿͊͗̀̋̆̑̂̓͛̎̉̈́̊́̿͛̇̿̐͋͐̽̄̀͗̊̑̾̉́̑̉̈́̄̈́͗͂͗̅́̓͊͑̐̋̎̒̓͆̌̓͆̏̾̽́͂̄̃̉̆͊͌̉͑̌͐̓̓̑̾̈́͊̂̽̊̍̒̐̋̎́͗̌̋͂̏͛̅͗̏̎͋͂̊̈́͆̑̀̿̓͗̈̈́̇̈́̌̅̓͑̍̂͑́̕͘̕̚͘̕͜͜͠͠͠͝͠͝͝͝͠͝͠͝͠͝͝͠ͅͅͅͅͅm̶̢̨̧̨̧̛̛̛̛̛̛̹̞̜̮̯͔̰̺̠͎̝̹̗̯͈̠̬̜̳̻̫̖͙̟̤͔̟̣͇̩̖̞̬̥̪̜̬̳̞̖͕̲͖̗͚̠͓̫̟̯̘̣̤͎͙̙͕̺̻̲̦̯͑̎̀̏̈̓̈̑̈́̀̊̽͒͊́̒͒͗͆̈̓̎̅̋̀͆̊̂́͐̽̍̽̓̅͗̉͊̇̍̓̊̎̉͋̀̿̋̾̿̏̋͐́̒̈́͑͋͆́̓̀̇̌̓̈́͗̾̾̓͑̀͋̈͆̋̅̂͑̐́̀͊̽̈́̓͛̒̋̈́̎̅̓͂̾̋̇̍̈́͆̈́̅̀̉̍̎̈́̓̽̀͗̌́͊̿̓́̋̾̾̐̀̓͗̀͌͌̌̾͗̈̇̐̆̅́̄̐̈̋̓́́̐͆͛̆̑͌͆͌́̂͆̀͌͐̊͑̊̃́̾͋͊͛̑͒̒̓͌̓̈́̃̿͌̀̉̓̿̕̕͘͘̚͘̕̕̚̕̚̚̚̕͜͝͝͝͠͝͝͠ͅę̷̧̡̡̨̢̛̛̛̛̼̳̮̙̰̙̫͍͇͕͉̦̪͚͍̱̺̯͚̞͓̣͖̟̻̭̫͇̪͍̹̪̹̪̺̹͚̦̟̘̳͇̘̬̤̳̙͉̼̭͓̜͖̼̯̓̾͑̀͆̂͋̿̀̅͊̓͑̆̎̋̃̀̅̔̒̈́́̈̎͋̐̑̒̍̑̀͌́́̔̆͑̋̽̈͐́͐͋̀̇̊͌͋̅́̄̇̈̏͂̿̋̔̈͒͊̈́̔̾̂̿͗̃̃́̑̐̀͛̑̾̏͌̏̈́̃͛͗̌̈́͒͐́̅͋̍̍̽̔͂̈̈͑͐͂́͊̓̋̒̈̃̅͗̈̏͗̏͆͐͊́̓̉̑̒̌̌̈́̊̑͑͋̈́͗̓̅̑̀͐͊͂̇͆̑̈́̔͊͋̉̑̅̒͆͆͘̚̕͘͘͘̚͘͘͜͜͜͝͝͝͝͝͝͠͠ͅͅͅͅ
+                    </p>
+                    <a href="#" class="btn btn-primary">Play</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img id="squidgameimg" src="/SPCK/img/squid game man.webp" class="card-img-top" alt="Sigma boy">
+                <div class="card-body">
+                    <p class="card-text">Octopus Game S2 (real)</p>
+                    <a href="#" class="btn btn-primary">Play</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img id="gameimg1" src="../img/space.webp" class="card-img-top" alt="Game 1">
+                <div class="card-body">
+                    <p class="card-text">Galaxy Quest: Space Adventures</p>
+                    <a href="#" class="btn btn-primary">Play</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img id="gameimg2" src="../img/dungeon.webp" class="card-img-top" alt="Game 2">
+                <div class="card-body">
+                    <p class="card-text">Dungeon Defenders: Magic Mayhem</p>
+                    <a href="#" class="btn btn-primary">Play</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img id="gameimg3" src="../img/treasure hunt.webp" class="card-img-top" alt="Game 3">
+                <div class="card-body">
+                    <p class="card-text">Pirate's Treasure Hunt</p>
+                    <a href="#" class="btn btn-primary">Play</a>
+                </div>
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                <img id="gameimg4" src="../img/zombies.webp" class="card-img-top" alt="Game 4">
+                <div class="card-body">
+                    <p class="card-text">Zombie Outbreak: Survival</p>
+                    <a href="#" class="btn btn-primary">Play</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img id="gameimg5" src="../img/hawk.webp" class="card-img-top" alt="Game 5">
+                <div class="card-body">
+                  <p class="card-text">Mystic Forest: Enchanted Quest</p>
+                  <a href="#" class="btn btn-primary">Play</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img id="gameimg6" src="../img/racist.webp" class="card-img-top" alt="Game 6">
+                <div class="card-body">
+                  <p class="card-text">Racing Rivals: Speed Storm</p>
+                  <a href="#" class="btn btn-primary">Play</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img id="gameimg7" src="../img/castle.webp" class="card-img-top" alt="Game 7">
+                <div class="card-body">
+                  <p class="card-text">Castle Siege: Warriors Reborn</p>
+                  <a href="#" class="btn btn-primary">Play</a>
+                </div>
+              </div>
+
+              
+              <div class="card" style="width: 18rem;">
+                <img id="gameimg8" src="../img/underwater.webp" class="card-img-top" alt="Game 8">
+                <div class="card-body">
+                  <p class="card-text">Underwater Adventure: Deep Dive</p>
+                  <a href="#" class="btn btn-primary">Play</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img id="gameimg9" src="../img/timetravel.webp" class="card-img-top" alt="Game 9">
+                <div class="card-body">
+                  <p class="card-text">Time Traveler's Escape</p>
+                  <a href="#" class="btn btn-primary">Play</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img id="gameimg10" src="../img/robots.webp" class="card-img-top" alt="Game 10">
+                <div class="card-body">
+                  <p class="card-text">Robot Revolution: Battle for Earth</p>
+                  <a href="#" class="btn btn-primary">Play</a>
+                </div>
+              </div>
+
+        </div>
+    </div>
+
+
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>SkyGames
+                        </h6>
+                        <p>
+                            Wanting to make a better experience.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Ha Noi, Vietnam</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            pro2023ken@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +84 365 310 512</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="http://127.0.0.1:5500/SPCK/html/index.html#!">SkyWeb.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>

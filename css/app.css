@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Exo 2", serif;
+  height: 2000px;
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+#Game {
+  display: flex;
+  padding: 5px;
+  gap: 7px
+}
+
+#ascensionimg {
+  height: 160px;
+}
+
+#squidgameimg {
+  height: 160px;
+}
+
+#gex {
+  height: 160px;
+}
+
+#Recommended {
+  display: flex;
+  padding: 5px;
+  gap: 7px
+}
+
+#Pinned {
+  display: flex;
+  padding: 5px;
+  gap: 7px
+}
+
+#PopularM {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    gap: 7px
+}
+
+#Friends {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  gap: 7px;
+}
+
+#sukuna {
+  height: 210px;
+}
+
+#thang1 {
+  height: 210px;
+}
+
+#geeked {
+  height: 210px;
+}
+
+#skibidiii {
+  height: 210px;
+}
+
+#thang2 {
+  height: 210px;
+}
+
+#lebronimg {
+  height: 210px;
+}
+
+#crippled {
+  height: 210px;
+}
+
+#danh {
+  height: 210px;
+}
+
+#mjordan {
+  height: 210px;
+}
+
+#robuxwarn {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#bigrizzing2 {
+  margin: 20px;
+  text-align: center;
+  color:darkmagenta;
+  text-decoration-line: underline;
+}
+
+.online {
+  color: rgb(28, 235, 28);
+}
+
+.passive {
+  color: rgb(81, 81, 234)
+}
+
+#robux {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  gap: 20px;
+}
+
+.gaysexnigger {
+  color: rgb(81, 81, 234)
+}
+
+#sohot1 {
+  color: rgb(255, 89, 0);
+}
+
+#sohot2 {
+  color: rgb(255, 89, 0);
+}
+
+#sugardaddy {
+  color: rgb(60, 255, 0);
+}
+
+#mangomangov4 {
+  gap: 5px;
+  padding: 20px
+}
+
+.class {
+  gap: 5px;
+  display: flex;
+  padding: 20px;
+}
